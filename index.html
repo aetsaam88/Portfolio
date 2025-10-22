@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AetSaam — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="icon" href="image.jpeg" type="image/png">
+
+  <meta name="description" content="AetSaam — Frontend Developer portfolio built with HTML, CSS and JavaScript. Responsive, accessible and editable." />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Aetsaam<span class="dot">.</span></a>
+
+      <nav id="nav" class="nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">🌙</button>
+        <button id="menu-toggle" class="btn-icon menu-btn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="sub">Hello, I'm</p>
+          <h1 class="hero-title">Aetsaam — <span id="typing" aria-live="polite"></span></h1>
+          <p class="lead">Frontend developer specialising in building responsive and accessible websites with HTML, CSS, JavaScript & React.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#contact">Hire Me</a>
+            <a class="btn btn-ghost" href="Aetsaam.pdf" download>Download CV</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/aetsaam88" aria-label="GitHub" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/muhammad-aetsaam-3597ba254/" aria-label="LinkedIn" target="_blank">LinkedIn</a>
+            <a href="mailto:dosktech02@gmail.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-photo" aria-hidden="false">
+          <!-- Replace image.jpg with your profile image -->
+          <img src="image.jpeg" alt="Profile photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I’m Aetsaam, a dedicated Computer Science student and emerging Web Developer from Pakistan. I specialize in creating responsive, visually appealing, and efficient web applications using HTML, CSS, JavaScript, and React.
+
+With a strong focus on clean code, modern design, and continuous learning, I aim to deliver high-quality digital solutions. I’m passionate about technology, problem-solving, and building projects that combine creativity with functionality.</p>
+            <ul class="about-list">
+              <li><strong>Location:</strong> Islamabad, Pakistan</li>
+              <li><strong>Education:</strong> BS Computer Science</li>
+              <li><strong>Availability:</strong> Open to opportunities</li>
+            </ul>
+            <a class="btn" href="#projects">View Projects</a>
+          </div>
+          <div class="about-stats">
+            <div class="card">
+              <h3>10+</h3>
+              <p>Projects</p>
+            </div>
+            <div class="card">
+              <h3>1+</h3>
+              <p>Internship</p>
+            </div>
+            <div class="card">
+              <h3>100%</h3>
+              <p>Responsive</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>HTML</h4>
+            <div class="progress" data-value="95"><span></span></div>
+          </div>
+          <div class="skill">
+            <h4>CSS</h4>
+            <div class="progress" data-value="90"><span></span></div>
+          </div>
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="progress" data-value="75"><span></span></div>
+          </div>
+          <div class="skill">
+            <h4>React (basic)</h4>
+            <div class="progress" data-value="60"><span></span></div>
+          </div>
+          <div class="skill">
+            <h4>Git</h4>
+            <div class="progress" data-value="75"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="pro1.png" alt="Project 1 screenshot" />
+            <div class="project-body">
+              <h3>Responsive Custom Website</h3>
+              <p>Custom Website built with HTML & CSS — responsive, accessible and fast.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Avo_colorlib/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Avo_colorlib" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="pro2.png" alt="Project 2 screenshot" />
+            <div class="project-body">
+              <h3>Banker-Saving Account</h3>
+              <p>Banker-Saving Website built with HTML, CSS & JS — responsive, accessible and fast.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Banker1/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Banker1" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="pro3.png" alt="Project 2 screenshot" />
+            <div class="project-body">
+              <h3>Vagefoods</h3>
+              <p>Vagetable & Foods Website built with HTML, CSS & JS — animations, responsive, accessible and fast.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Vegetable.pre/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Vegetable.pre" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="pro4.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Travel & Tours</h3>
+              <p>Travel & Tours Website built with HTML & CSS — responsive, accessible and fast.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Hepta.colorlib/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Hepta.colorlib" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="pro5.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Construction</h3>
+              <p>Marketing & Construction landing page — with responsive hero and animated features.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Construction/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Construction" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="pro6.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Homeland</h3>
+              <p>Marketing Homeland  built with HTML, CSS & JS — responsive hero and animated features.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Homeland/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Homeland" target="_blank">Code</a>
+              </div>
+            </div>
+          </article><article class="project-card">
+            <img src="pro7.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>First JS</h3>
+              <p>Basic Syntax of JavaScript.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/First.JS/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/First.JS" target="_blank">Code</a>
+              </div>
+            </div>
+          </article><article class="project-card">
+            <img src="pro8.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Tic Toc Toe</h3>
+              <p>Tic Toc Toe play game built with HTML, CSS & JS.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/Tic-toc-toe/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Tic-toc-toe" target="_blank">Code</a>
+              </div>
+            </div>
+          </article><article class="project-card">
+            <img src="pro9.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>To-Do-List</h3>
+              <p>Describing a specific feature or field within a to-do list app & built with HTML, CSS & JS</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/To-do.list/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/To-do.list" target="_blank">Code</a>
+              </div>
+            </div>
+          </article><article class="project-card">
+            <img src="pro12.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Development Agency</h3>
+              <p>Development Agency create by using HTML and TailwindCSS with responsive hero and animated features.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/tailwind/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/tailwind" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+           <article class="project-card">
+            <img src="pro13.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>DelishBite</h3>
+              <p>Responsive food delivery website “DelishBite” built with Tailwind CSS — includes hero section, menu cards, about, and contact form.</p>
+              <div class="project-links">
+                <a href="https://aetsaam88.github.io/tail_wind/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/tail_wind" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+       <article class="project-card">
+            <img src="pro10.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>First React</h3>
+              <p>My first react project with CSS for styling.</p>
+              <div class="project-links">
+                <a href="https://first-react-eight-phi.vercel.app/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/firstReact" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+             <article class="project-card">
+            <img src="pro11.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Simple Blog</h3>
+              <p>Simple Blog page by using React & CSS responsive hero and animated features.</p>
+              <div class="project-links">
+                <a href="https://blog-rouge-one-97.vercel.app/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/Blog" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+         <article class="project-card">
+            <img src="pro6.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Homeland</h3>
+              <p>Homeland & Marketing landing page with responsive hero and animated features, Built by using React & CSS.</p>
+              <div class="project-links">
+                <a href="https://react-1-gilt-xi.vercel.app/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/react-1" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="pro3.png" alt="Project 3 screenshot" />
+            <div class="project-body">
+              <h3>Vagefoods</h3>
+              <p>Vegetable & Foods builts with React & css.</p>
+              <div class="project-links">
+                <a href="https://react3-ashen.vercel.app/" target="_blank">Live</a>
+                <a href="https://github.com/aetsaam88/react3" target="_blank">Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form" action="mailto:dosktech02@gmail.com" method="get" onsubmit="return validateForm(event)">
+            <label>
+              <span>Name</span>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+
+          <div class="contact-info">
+            <div class="info-card">
+              <h4>Email</h4>
+              <p><a href="mailto:dosktech02@gmail.com">dosktech02@gmail.com</a></p>
+            </div>
+            <div class="info-card">
+              <h4>Location</h4>
+              <p>Islamabad, Pakistan</p>
+            </div>
+            <div class="info-card">
+              <h4>Follow</h4>
+              <p>
+                <a href="https://github.com/aetsaam88" target="_blank">GitHub</a> •
+                <a href="https://www.linkedin.com/in/muhammad-aetsaam-3597ba254/" target="_blank">LinkedIn</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> AetSaam. All rights reserved.</p>
+        <a href="#home" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
