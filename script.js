@@ -62,7 +62,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
 
 // ===== Typing effect (hero) =====
 const typingEl = document.getElementById('typing');
-const phrases = ['Frontend Developer', 'HTML • CSS • JavaScript', 'Responsive Web Designer', 'React Learner'];
+const phrases = ['Frontend Developer', 'HTML • CSS • JavaScript', 'Responsive Web Designer', 'React & Next.js Developer', 'Basic Mern Stack'];
 let pIndex = 0, charIndex = 0, typingForward = true;
 function typeLoop(){
   const current = phrases[pIndex];
