@@ -61,18 +61,23 @@ body{
 .hero-grid{display:grid;grid-template-columns:1fr 320px;gap:2rem;align-items:center}
 .hero .sub{margin:0;color:var(--muted)}
 .hero-title {
-    display: flex;
-    flex-direction: column; 
-    gap: 0.5rem; /* Dono lines ke darmiyan thora gap */
-    font-size: 2.5rem; /* Aap apne hisab se adjust kar sakte hain */
-    line-height: 1.2;
+  font-size: 2.8rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 1rem;
 }
 
-/* Typing span ko block banayein taake wo hamesha nayi line se shuru ho */
+.name-line {
+  display: block; /* Aetsaam hamesha top line pe */
+}
+
 #typing {
-    display: block; 
-    color: var(--accent); /* Taake typing text highlight ho */
-    min-height: 1.2em;    /* Ek line ki jagah hamesha reserve rahegi */
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: black !important;
+    min-height: 1.5em;
+    font-size: 2rem;
 }
 .lead{color:var(--muted);max-width:60ch}
 .hero-actions{margin:1rem 0;display:flex;gap:0.75rem}
@@ -80,20 +85,7 @@ body{
 .btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.06);color:var(--text)}
 .socials{display:flex;gap:0.6rem;margin-top:1rem}
 .socials a{color:var(--muted);text-decoration:none}
-#typing {
-  display: inline-block;
-  min-height: 2.8em;      /* Mobile par 2 lines ki jagah reserve karega */
-  vertical-align: middle;
-  width: 100%;           /* Mobile alignment ke liye */
-}
 
-/* Hero Title Adjustment */
-.hero-title {
-  min-height: 4.5rem;    /* Pure title ki height reserve rakhega */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 /* HERO PHOTO */
 .hero-photo{display:flex;align-items:center;justify-content:center}
 .hero-photo img{width:240px;height:240px;object-fit:cover;border-radius:18px;box-shadow:var(--shadow);border:6px solid var(--glass)}
@@ -297,10 +289,15 @@ font-size: 0.9rem;
   .nav-list.show{display:flex}
   .menu-btn{display:inline-block}
   .header{padding:0 0.5rem}
+  .hero-title {
+    font-size: 2rem;   /* Mobile par heading ka size */
+    text-align: center;
+  }
+  
   #typing {
-        min-height: 2.4em; /* Mobile par 2 lines ki space reserve */
-        font-size: 1.8rem;  /* Mobile ke liye thora chota size */
-    }
+    min-height: 3.2em; /* Mobile par 2 lines ki jagah reserve rakhein (taki layout na hile) */
+    font-size: 1.4rem; /* Mobile par typing text ka size */
+  }
 }
 
 /* small styling niceties */
