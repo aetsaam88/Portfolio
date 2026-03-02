@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ===== Typing Effect (Optimized) =====
-    const phrases = ['Frontend Developer', 'HTML • CSS • JavaScript', 'Responsive Web Designer', 'React Learner'];
+    const phrases = ['Frontend Developer', 'HTML • CSS • JavaScript', 'Responsive Web Designer', 'React.js & Next.js', 'Passionate Coder','Mern Stack'];
     let pIndex = 0, charIndex = 0, typingForward = true;
     const typingEl = document.getElementById('typing');
 
